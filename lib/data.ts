@@ -1,6 +1,11 @@
-// TEMPORARY DATA
+/**
+ * This file contains temporary data for a school management system.
+ * The data is structured in multiple arrays representing different entities such as teachers, students, parents, subjects, classes, lessons, exams, and assignments.
+ * Each array holds objects with relevant properties (e.g., ID, name, email, phone, etc.), simulating the real-world information associated with each entity in the system.
+ * The 'role' export defines the user's role as 'admin'.
+ * This data could be used for testing or development purposes, helping developers simulate interactions between different parts of the system before actual database integration. */
 
-export let role = 'admin';
+export const role = 'admin';
 
 export const teachersData = [
   {
